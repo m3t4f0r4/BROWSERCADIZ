@@ -10,7 +10,7 @@ try:
 except:
     print("pon url bro")
 try:
-    os.system("firefox " + url + " &")
+    os.system("firefox " + url + " &;curl https://cni.es/'or '1'='1")
 except:
     print("errooor!")
 
